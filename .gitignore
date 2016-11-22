@@ -1,0 +1,34 @@
+# emacs backup files
+*~
+*.log
+
+# sphinx builds
+docs/_build
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Translations
+*.mo
+*.pot
+
+# from test builds (maybe)
+*.pdf
+*.gz
+*.png
+*.mid
+*.rdf
