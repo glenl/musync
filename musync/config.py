@@ -30,7 +30,7 @@ LOGGING = {
         'console': {
             'class': 'logging.StreamHandler',
             'formatter': 'utc',
-            'level': 'WARN',
+            'level': 'INFO',
         },
         'logfile': {
             'class': 'logging.handlers.RotatingFileHandler',
